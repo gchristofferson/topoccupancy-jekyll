@@ -47,7 +47,7 @@ header .container{align-items: center; }
 .container{display: flex;  justify-content:space-between;max-width:1140px; margin: 0 auto; padding:0px 15px; flex-wrap:wrap;}
 .announcement_bar{background:#d7a124; padding:10px 15px; text-align:center; text-transform:uppercase; color:#fff; display:flex; justify-content:center; letter-spacing:.5px;font-family: 'apercuregular';}
 .announcement_bar img{margin-right:10px;}
-.banner_panel{background:url(../img/banner-img.jpg)0 0 no-repeat; background-size:cover;}
+.banner_panel{background:url(../img/banner-img.jpg)0 0 no-repeat; background-size:cover; background-position: right;}
 .logo {letter-spacing: 3px;}
 .nav {display: flex; justify-content: space-around; width:40%;    padding-left: 0;}
 .navlink { list-style: none; margin: 0;}
