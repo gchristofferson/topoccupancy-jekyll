@@ -225,29 +225,29 @@ layout: default
   <div class="container">
     <div class="contact-panel-form">
       <h2>GET STARTED <br>IN LESS THAN 2 MINUTES</h2>
-      <form>
+      <form name="contact" method="POST" netlify>
         <div class="form-group">
-          <input type="text"  name="firstname" required="required" />
-          <label>First Name</label>
+          <input type="text"  id="firstname" name="firstname" required="required" />
+          <label for="firstname">First Name</label>
         </div>
         <div class="form-group">
-          <input type="text"  name="lastname" required="required" />
-          <label>Last Name</label>
+          <input type="text"  id="lastname" name="lastname" required="required" />
+          <label for="lastname">Last Name</label>
         </div>
         <div class="form-group">
-          <input type="text"  name="email" required="required" />
-          <label>Email Address</label>
+          <input type="email" id="email" name="email" required="required" />
+          <label for="email">Email Address</label>
         </div>
         <div class="form-group">
-          <input type="text"  name="phone" required="required" />
-          <label>Phone</label>
+          <input type="number"  id="phone" name="phone" required="required" />
+          <label for="phone">Phone</label>
         </div>
         <div class="form-group full-width">
           <textarea name="Comments" placeholder="Comments"></textarea>
         </div>
         <div class="form-group full-width">
-          <button class="button yellow-btn">Order Virtual Tour Now</button>
-          <small>To order multiple tours, contact us at XXX-XXX-XXXX or use the contact form above Upload your 360° photos:</small>
+          <button type="submit" name="submit" class="button yellow-btn">Order Virtual Tour Now</button>
+          <small>To order multiple tours, contact us at 707-625-0133 or use the contact form above Upload your 360° photos:</small>
         </div>
       </form>
     </div>
